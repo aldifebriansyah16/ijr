@@ -14,7 +14,7 @@ require './cek.php';
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title> Barang keluar</title>
-    <link href="css/styles.css" rel="stylesheet" />
+    <link href="./css/styles.css" rel="stylesheet" />
     <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/0ba3a43d73.js" crossorigin="anonymous"></script>
@@ -29,7 +29,7 @@ require './cek.php';
     </nav>
     <div id="layoutSidenav">
         <div id="layoutSidenav_nav">
-            <?php require_once(__DIR__ . '/components/navbar.php'); ?>
+            <?php require_once('./components/navbar.php'); ?>
         </div>
         <div id="layoutSidenav_content">
             <main>
@@ -98,13 +98,13 @@ require './cek.php';
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
+    <script src="./js/scripts.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
-    <script src="assets/demo/chart-area-demo.js"></script>
-    <script src="assets/demo/chart-bar-demo.js"></script>
+    <script src="./assets/demo/chart-area-demo.js"></script>
+    <script src="./assets/demo/chart-bar-demo.js"></script>
     <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
-    <script src="assets/demo/datatables-demo.js"></script>
+    <script src="./assets/demo/datatables-demo.js"></script>
 </body>
 <!-- The Modal -->
 <div class="modal fade" id="myModal">
