@@ -1,5 +1,5 @@
 <?php
-require 'function.php';
+require './function.php';
 //cek login ada atau tidak
 if (isset($_POST['login'])) {
     $email = $_POST['email'];

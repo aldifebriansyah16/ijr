@@ -1,6 +1,6 @@
 <?php
-require 'function.php';
-require 'cek.php';
+require './function.php';
+require './cek.php';
 
 ?>
 
@@ -67,8 +67,6 @@ require 'cek.php';
                                             $namabarang = $data['namabarang'];
                                             $qty = $data['qty'];
                                             $keterangan = $data['keterangan'];
-
-
 
 
                                         ?>
